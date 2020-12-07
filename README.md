@@ -1,5 +1,5 @@
 # kh
-wget https://raw.githubusercontent.com/Khaled-IamZ/kh/main/installer.sh
+wget https://raw.githubusercontent.com/Khaled-IamZ/SE/main/installer.sh
 
 chmod +x installer.sh
 
