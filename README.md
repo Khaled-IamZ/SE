@@ -1,5 +1,5 @@
 # kh
-wget https://raw.githubusercontent.com/Khaled-IamZ/VPN/main/installer.sh
+wget https://raw.githubusercontent.com/Khaled-IamZ/kh/main/installer.sh
 
 chmod +x installer.sh
 
