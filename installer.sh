@@ -12,7 +12,7 @@
 #--------------------------------------------------
 #Updating centos version
 cd /root
-yum update -y
+#yum update -y
 yum groupinstall "development tools" -y
 #Downloading server files
 yum install wget -y
