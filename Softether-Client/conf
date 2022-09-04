@@ -7,3 +7,4 @@ Used Virtual Network Adapter Name: myadapter
 AccountPasswordSet myconnection
 Specify standard or radius: standard
 AccountConnect myconnection
+AccountStartupSet myconnection
