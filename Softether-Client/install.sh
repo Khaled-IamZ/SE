@@ -11,7 +11,7 @@
 #Script start
 #--------------------------------------------------
 #Updating centos version
-cd /root
+#cd /root
 #yum update -y
 #yum groupinstall "development tools" -y
 #yum install wget -y
