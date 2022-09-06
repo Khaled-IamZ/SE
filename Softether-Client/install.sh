@@ -15,7 +15,7 @@
 #yum update -y
 #yum groupinstall "development tools" -y
 #yum install wget -y
-wget https://github.com/Khaled-IamZ/SE/blob/main/Softether-Client/softether-vpnclient-v4.38-9760-rtm-2021.08.17-linux-x64-64bit.tar.gz
+wget https://raw.githubusercontent.com/Khaled-IamZ/SE/main/Softether-Client/softether-vpnclient-v4.38-9760-rtm-2021.08.17-linux-x64-64bit.tar.gz
 tar zxf softether-vpnclient-v4.38-9760-rtm-2021.08.17-linux-x64-64bit.tar.gz
 cd vpnclient
 make
