@@ -1,3 +1,4 @@
+/usr/local/vpnclient/vpncmd
 NicCreate myadapter
 AccountCreate myconnection
 Destination VPN Server Host Name and Port Number: [VPN Server IP Address]:443
