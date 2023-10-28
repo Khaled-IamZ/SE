@@ -2,7 +2,7 @@
 NicCreate myadapter
 AccountCreate myconnection
 Destination VPN Server Host Name and Port Number: [VPN Server IP Address]:443
-Destination Virtual Hub Name: VPN
+Destination Virtual Hub Name: DEFAULT
 Connecting User Name: test
 Used Virtual Network Adapter Name: myadapter
 AccountPasswordSet myconnection
