@@ -1,12 +1,12 @@
 /usr/local/vpnclient/vpncmd
-NicCreate myadapter
-AccountCreate myconnection
+NicCreate tamiuzz
+AccountCreate tam
 Destination VPN Server Host Name and Port Number: [VPN Server IP Address]:443
 Destination Virtual Hub Name: DEFAULT
 Connecting User Name: test
-Used Virtual Network Adapter Name: myadapter
-AccountPasswordSet myconnection
+Used Virtual Network Adapter Name: tamiuzz
+AccountPasswordSet tam
 Specify standard or radius: standard
-AccountConnect myconnection
-AccountStartupSet myconnection
+AccountConnect tam
+AccountStartupSet tam
 service vpnclient start
