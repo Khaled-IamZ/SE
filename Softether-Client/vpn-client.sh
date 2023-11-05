@@ -3,14 +3,14 @@
 # description: SoftEther VPN Client
 DAEMON=/usr/local/vpnclient/vpnclient
 LOCK=/var/lock/subsys/vpnclient
-TAP_ADDR=192.168.30.250
+TAP_ADDR=192.168.50.250
 test -x $DAEMON || exit 0
 case "$1" in
 start)
 $DAEMON start
 touch $LOCK
 sleep 1
-sbin/ifconfig vpn_myadapter $TAP_ADDR
+sbin/ifconfig vpn_tamiuzz $TAP_ADDR
 ;;
 stop)
 $DAEMON stop
@@ -21,7 +21,7 @@ $DAEMON stop
 sleep 3
 $DAEMON start
 sleep 1
-sbin/ifconfig vpn_myadapter $TAP_ADDR
+sbin/ifconfig vpn_tamiuzz $TAP_ADDR
 ;;
 *)
 echo "Usage: $0 {start|stop|restart}"
