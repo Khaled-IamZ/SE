@@ -3,7 +3,7 @@
 # description: SoftEther VPN Client
 DAEMON=/usr/local/vpnclient/vpnclient
 LOCK=/var/lock/subsys/vpnclient
-TAP_ADDR=192.168.50.150
+TAP_ADDR=192.168.50.245
 test -x $DAEMON || exit 0
 case "$1" in
 start)
