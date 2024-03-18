@@ -1,0 +1,4 @@
+/etc/init.d/vpnserver stop
+nano /usr/local/vpnserver/vpn_server.config
+disable web api true
+/etc/init.d/vpnserver restart
