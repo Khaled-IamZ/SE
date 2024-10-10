@@ -10,3 +10,6 @@ Specify standard or radius: standard
 AccountConnect tam
 AccountStartupSet tam
 service vpnclient start
+
+to change destination
+AccountSet tam
