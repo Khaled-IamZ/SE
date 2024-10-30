@@ -13,3 +13,6 @@ service vpnclient start
 
 to change destination
 AccountSet tam
+
+to change ip
+nano /etc/rc.d/init.d/vpnclient
