@@ -25,7 +25,6 @@ cd /usr/local/vpnclient/
 chmod 600 *
 chmod 700 vpnclient
 chmod 700 vpncmd
-./vpnclient start
 wget https://raw.githubusercontent.com/Khaled-IamZ/SE/main/Softether-Client/vpn-client.sh --no-check-certificate
 mv vpn-client.sh /etc/rc.d/init.d/vpnclient
 cd /etc/rc.d/init.d/
