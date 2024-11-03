@@ -15,6 +15,7 @@
 #yum update -y
 yum groupinstall "development tools" -y
 yum install wget -y
+yum install chkconfig -y
 wget https://www.softether-download.com/files/softether/v4.38-9760-rtm-2021.08.17-tree/Linux/SoftEther_VPN_Client/64bit_-_Intel_x64_or_AMD64/softether-vpnclient-v4.38-9760-rtm-2021.08.17-linux-x64-64bit.tar.gz
 tar zxf softether-vpnclient-v4.38-9760-rtm-2021.08.17-linux-x64-64bit.tar.gz
 cd vpnclient
